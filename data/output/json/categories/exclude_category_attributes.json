@@ -1,0 +1,21 @@
+{
+    "general": [
+        "yoast_head",
+        "_links"
+    ],
+    "yoast_head_json": [
+        "og_type",
+        "og_title",
+        "og_site_name",
+        "twitter_card"
+    ],
+    "yoast_head_json.robots": [
+        "max-snippet",
+        "max-image-preview",
+        "max-video-preview"
+    ],
+    "yoast_head_json.schema.@graph": {
+        "delete_item_index": [0, 2, 3],
+        "exclude_attributes": ["@type", "@id"]
+    }
+}
