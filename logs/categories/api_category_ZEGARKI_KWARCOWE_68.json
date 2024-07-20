@@ -1,0 +1,42 @@
+{
+    "request": {
+        "url": "https://demo37-pl.iai-shop.com/api/admin/v3/products/categories",
+        "payload": {
+            "params": {
+                "categories": [
+                    {
+                        "lang_data": [
+                            {
+                                "lang_id": "pol",
+                                "singular_name": "ZEGARKI KWARCOWE",
+                                "plural_name": "ZEGARKI KWARCOWE"
+                            }
+                        ],
+                        "operation": "add",
+                        "parent_id": 0
+                    }
+                ]
+            }
+        },
+        "headers": {
+            "accept": "application/json",
+            "content-type": "application/json",
+            "X-API-KEY": "YXBwbGljYXRpb24xOlptTkRObU1qa3pNbU5o"
+        }
+    },
+    "response": {
+        "status": 200,
+        "data": {
+            "result": {
+                "categories": [
+                    {
+                        "faultCode": 20,
+                        "faultString": "Błąd dodawania kategorii. Na danym poziomie istnieje już element o podanej nazwie.",
+                        "parent_id": 0,
+                        "id": 1214558987
+                    }
+                ]
+            }
+        }
+    }
+}

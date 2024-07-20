@@ -1,0 +1,74 @@
+{
+    "request": {
+        "url": "https://demo37-pl.iai-shop.com/api/admin/v3/menu/menu",
+        "payload": {
+            "settings": {
+                "textid_separator": "\\"
+            },
+            "menu_list": [
+                {
+                    "shop_id": "4",
+                    "menu_id": "1",
+                    "item_textid": "Bez kategorii",
+                    "parent_id": "0",
+                    "parent_textid": "",
+                    "lang_data": [
+                        {
+                            "lang_id": "pol",
+                            "name": "Bez kategorii",
+                            "priority": 1,
+                            "description": "",
+                            "item_type": "products",
+                            "meta_title": "Archiwa Bez kategorii - Woocommerce Demo",
+                            "meta_description": "",
+                            "meta_keywords": "",
+                            "href_target": "_self",
+                            "hidden": "n",
+                            "url": "https://woocommerce.design4art.pl/kategoria/bez-kategorii"
+                        },
+                        {
+                            "lang_id": "eng",
+                            "name": "Bez kategorii",
+                            "priority": 1,
+                            "description": "",
+                            "item_type": "products",
+                            "meta_title": "Archiwa Bez kategorii - Woocommerce Demo",
+                            "meta_description": "",
+                            "meta_keywords": "",
+                            "href_target": "_self",
+                            "hidden": "n",
+                            "url": "https://woocommerce.design4art.pl/kategoria/bez-kategorii"
+                        }
+                    ]
+                }
+            ]
+        },
+        "headers": {
+            "accept": "application/json",
+            "content-type": "application/json",
+            "X-API-KEY": "YXBwbGljYXRpb24xOlptTkRObU1qa3pNbU5o"
+        }
+    },
+    "response": {
+        "status": 207,
+        "data": {
+            "errors": {
+                "faultCode": 0,
+                "faultString": ""
+            },
+            "result": [
+                {
+                    "item_textid": "Bez kategorii",
+                    "item_id": 0,
+                    "parent_textid": "",
+                    "parent_id": 0,
+                    "menu_id": 1,
+                    "shop_id": 4,
+                    "faultCode": 2,
+                    "faultString": "Błędny język"
+                }
+            ]
+        },
+        "elapsed_time": 0.11
+    }
+}

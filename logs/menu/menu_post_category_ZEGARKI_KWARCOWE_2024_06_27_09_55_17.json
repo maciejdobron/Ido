@@ -1,0 +1,74 @@
+{
+    "request": {
+        "url": "https://demo37-pl.iai-shop.com/api/admin/v3/menu/menu",
+        "payload": {
+            "settings": {
+                "textid_separator": "\\"
+            },
+            "menu_list": [
+                {
+                    "shop_id": "4",
+                    "menu_id": "1",
+                    "item_textid": "ZEGARKI KWARCOWE",
+                    "parent_id": "0",
+                    "parent_textid": "",
+                    "lang_data": [
+                        {
+                            "lang_id": "pol",
+                            "name": "ZEGARKI KWARCOWE",
+                            "priority": 1,
+                            "description": "",
+                            "item_type": "navigation",
+                            "meta_title": "Archiwa ZEGARKI KWARCOWE - Woocommerce Demo",
+                            "meta_description": "",
+                            "meta_keywords": "",
+                            "href_target": "_self",
+                            "hidden": "n",
+                            "url": "https://woocommerce.design4art.pl/kategoria/zegarki-kwarcowe"
+                        },
+                        {
+                            "lang_id": "eng",
+                            "name": "ZEGARKI KWARCOWE",
+                            "priority": 1,
+                            "description": "",
+                            "item_type": "navigation",
+                            "meta_title": "Archiwa ZEGARKI KWARCOWE - Woocommerce Demo",
+                            "meta_description": "",
+                            "meta_keywords": "",
+                            "href_target": "_self",
+                            "hidden": "n",
+                            "url": "https://woocommerce.design4art.pl/kategoria/zegarki-kwarcowe"
+                        }
+                    ]
+                }
+            ]
+        },
+        "headers": {
+            "accept": "application/json",
+            "content-type": "application/json",
+            "X-API-KEY": "YXBwbGljYXRpb24xOlptTkRObU1qa3pNbU5o"
+        }
+    },
+    "response": {
+        "status": 207,
+        "data": {
+            "errors": {
+                "faultCode": 0,
+                "faultString": ""
+            },
+            "result": [
+                {
+                    "item_textid": "ZEGARKI KWARCOWE",
+                    "item_id": 0,
+                    "parent_textid": "",
+                    "parent_id": 0,
+                    "menu_id": 1,
+                    "shop_id": 4,
+                    "faultCode": 2,
+                    "faultString": "Błędny język"
+                }
+            ]
+        },
+        "elapsed_time": 0.11
+    }
+}
